@@ -124,7 +124,7 @@ class MicrosoftAuth {
                 file.flush()
                 file.close()
             } catch (e: IOException) {
-                print("File path error "+e.message);
+//                print("File path error "+e.message);
                 e.printStackTrace()
             }
         }
